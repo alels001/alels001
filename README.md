@@ -1,105 +1,58 @@
 <div align="center">
-  <img src="./assets/banner.svg" alt="Ali Elshafey — Data & AI Engineering: ingest, transform, serve" width="100%" />
+  <img src="./assets/banner.svg" alt="Ali Elshafey — Data and AI Engineering" width="100%" />
 
-  ### Data Science graduate · M.Sc. Computer Science student · Germany
+  <p><b>Data Science graduate · Computer Science master's student · Germany</b></p>
+  <p>Building practical data platforms, ML systems, and AI applications.</p>
 
-  **Building practical data pipelines, ML systems, and AI applications.**
-
-  [![Projects](https://img.shields.io/badge/GitHub-Explore_projects-18233d?style=flat-square&logo=github&logoColor=white)](https://github.com/alels001?tab=repositories)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-elshafey-5360641b9)
+  <a href="https://github.com/alels001?tab=repositories"><img alt="Repositories" src="https://img.shields.io/badge/Explore-Projects-223450?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/ali-elshafey-5360641b9"><img alt="LinkedIn" src="https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </div>
 
----
+## Hi, I'm Ali 👋
 
-## About me
+I earned my **B.Sc. in Data Science at FH Dortmund** and am continuing with a master's in **Computer Science**. I enjoy turning messy data into reliable pipelines, training and evaluating models, and building applications people can actually use.
 
-I'm **Ali Elshafey**, a Data Science graduate from **FH Dortmund** and currently a master's student in **Computer Science** in Germany. I enjoy working across the data lifecycle: ingestion, cleaning, transformation, modelling, evaluation, and deployment.
+My approach: **understand the problem → build a clear baseline → measure → improve → make it reproducible.**
 
-My projects range from **Spark-based data engineering** to predictive maintenance and LLM applications. I focus on making systems testable, reproducible, and useful beyond a notebook.
+## Featured projects
 
-## Selected projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 01 · [Open Food Facts Lakehouse](https://github.com/alels001/etl-data-pipeline)
-
-A batch data pipeline that extracts data from Open Food Facts and processes it through a **Bronze → Silver → Gold** lakehouse with incremental loading, data-quality checks, and analytical tables. Includes tests, CI, and an Airflow DAG.
-
-`Python` `PySpark` `Delta Lake` `ETL` `Airflow`
-
-</td>
-<td width="50%" valign="top">
-
-### 02 · [NASA Predictive Maintenance](https://github.com/alels001/rul-prediction-cmapss-fd001)
-
-Remaining Useful Life prediction on the NASA C-MAPSS FD001 dataset. A controlled comparison of regression, gradient boosting, and sequence models, with engine-level validation and reproducible experiments.
-
-`Python` `XGBoost` `Time Series` `ML Evaluation`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 03 · [PolicyPilot](https://github.com/alels001/policy-pilot)
-
-An evolving internal-document question-answering project exploring ingestion, retrieval, role-aware document access, and API-based delivery.
-
-`Python` `PostgreSQL` `pgvector` `RAG`
-
-</td>
-<td width="50%" valign="top">
-
-### 04 · [German Crossword Solver](https://github.com/alels001/crossword-solver)
-
-From crossword photos to structured puzzles and candidate solutions, combining computer vision, OCR, retrieval, language models, and constraint solving. Includes API tooling and evaluation.
-
-`Python` `Computer Vision` `LLMs` `FastAPI`
-
-</td>
-</tr>
-</table>
-
-**Other projects:** [Customer Churn Prediction](https://github.com/alels001/customer-churn-prediction) · [NBA Salary Prediction](https://github.com/alels001/nba-salary-prediction)
-
-## Technology
-
-| Focus | Tools and concepts |
+| Data engineering | Predictive ML |
 |:--|:--|
-| **Data engineering** | Python, SQL, pandas, PySpark, Apache Spark, Delta Lake, ETL, Medallion architecture |
-| **Databases & retrieval** | PostgreSQL, SQLite, pgvector, embeddings, RAG |
-| **Machine learning** | scikit-learn, XGBoost, LightGBM, PyTorch, time-series evaluation |
-| **Engineering** | Docker, FastAPI, Git, REST APIs, pytest, GitHub Actions |
+| **[📦 Open Food Facts Lakehouse](https://github.com/alels001/etl-data-pipeline)** | **[🔧 NASA Engine RUL Prediction](https://github.com/alels001/rul-prediction-cmapss-fd001)** |
+| Food product data through a **Bronze → Silver → Gold** pipeline, with incremental loads, Delta tables, data-quality checks, tests, and an Airflow DAG. | Comparison of regression, XGBoost, LSTM, and Chronos-2 for engine Remaining Useful Life, with engine-level evaluation and reproducible experiments. |
+| `Python` · `PySpark` · `Delta Lake` · `Airflow` | `Python` · `XGBoost` · `Time Series` |
 
-**Currently learning more about:** AWS data services, distributed data platforms, Kubernetes, and production lakehouse operations.
+| Applied AI | GenAI & computer vision |
+|:--|:--|
+| **[🧭 PolicyPilot — Document Q&A](https://github.com/alels001/policy-pilot)** | **[🧩 German Crossword Solver](https://github.com/alels001/crossword-solver)** |
+| Role-filtered hybrid retrieval over **synthetic** company policies, source-based answers, and a Streamlit demo. A learning project, not a production authentication system. | Photo-to-crossword workflow combining computer vision, OCR, retrieval, LLM candidate generation, and constraint solving, with API and evaluation tooling. |
+| `Python` · `PostgreSQL` · `pgvector` · `RAG` | `Python` · `FastAPI` · `LLMs` · `Computer Vision` |
 
-## How I build
+Other work: [Customer Churn Prediction](https://github.com/alels001/customer-churn-prediction) · [NBA Salary Prediction](https://github.com/alels001/nba-salary-prediction)
 
-```text
-Source data → Ingest → Validate & transform → Model or analyse → Serve
-                         ↕                      ↕
-                    Data quality           Evaluation
-```
+## Toolbox
 
-I prefer clearly scoped projects, documented decisions, and measurable results—especially when simpler approaches can solve the problem well.
+| Area | Tools I have used in studies and projects |
+|:--|:--|
+| **Data engineering** | Python, SQL, pandas, PySpark, Apache Spark, Delta Lake, ETL, medallion architecture |
+| **ML & evaluation** | scikit-learn, XGBoost, LightGBM, PyTorch, time-series modelling |
+| **LLM applications** | RAG, embeddings, PostgreSQL, pgvector, structured outputs |
+| **Engineering practices** | Git, Docker, FastAPI, pytest, GitHub Actions |
+
+**Currently exploring:** AWS data services, Kubernetes, and larger-scale data platform operations.
 
 <details>
 <summary><b>GitHub activity</b></summary>
-<br />
+<br>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=alels001&show_icons=true&hide_border=true&theme=transparent" alt="GitHub activity stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=alels001&amp;show_icons=true&amp;hide_border=true&amp;theme=transparent" alt="GitHub contribution summary" />
 </div>
-<sub>Live statistics are loaded from an external service and may occasionally be unavailable.</sub>
+<sub>Third-party statistics may be temporarily unavailable.</sub>
 </details>
 
 ---
 
 <div align="center">
-
-**Interested in data platforms, reliable ML, and useful AI products.**
-
-[Explore my repositories](https://github.com/alels001?tab=repositories) · [Connect on LinkedIn](https://www.linkedin.com/in/ali-elshafey-5360641b9)
-
+  <b>Open to opportunities in Data Engineering, AI Engineering, and applied Machine Learning.</b><br>
+  <a href="https://www.linkedin.com/in/ali-elshafey-5360641b9">LinkedIn</a> · <a href="https://github.com/alels001?tab=repositories">All repositories</a>
 </div>
